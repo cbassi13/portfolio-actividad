@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+/*  font-family: 'DM Sans', sans-serif;
+font-family: 'Inter', sans-serif
+*/
+footer, .header, .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .social {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.navbar {
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+}
+.navbar span {
+  color: #181717;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  font-family: "DM Sans", sans-serif;
+  color: #181717;
+}
+footer .social p {
+  color: #181717;
+  margin: 10px;
+}
+footer .CristianFooter {
+  color: #2429af;
+}
+
+a {
+  color: #2429af;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: red;
+}
+
+h1 {
+  font-family: "DM Sans", sans-serif;
+}
+
+h2 {
+  font-family: "DM Sans", sans-serif;
+}
+
+span {
+  font-family: "Inter", sans-serif;
+  color: #606060;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+  color: #606060;
+}
+
+/*# sourceMappingURL=style.css.map */
